@@ -10,4 +10,9 @@ import Foundation
 // Source: https://jsonplaceholder.typicode.com/posts
 // Single User's Posts: https://jsonplaceholder.typicode.com/users/1/posts
 
-// Film -> https://youtu.be/S5PYdqfyroI?list=PLBn01m5Vbs4BKxvt7d4kyIr1ZUNlOdYTe&t=419
+struct Post: Codable, Identifiable {
+    let userId: Int
+    let id: Int
+    let title: String
+    let body: String
+}
