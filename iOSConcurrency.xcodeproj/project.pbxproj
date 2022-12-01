@@ -20,6 +20,7 @@
 		E4BF2658291D70CA00993C70 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = E4BF2655291D70C900993C70 /* users.json */; };
 		E4BF2659291D70CA00993C70 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BF2656291D70C900993C70 /* MockData.swift */; };
 		E4BF265A291D70CA00993C70 /* posts.json in Resources */ = {isa = PBXBuildFile; fileRef = E4BF2657291D70CA00993C70 /* posts.json */; };
+		E4D15BFF29383A06002AA694 /* UserAndPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D15BFE29383A06002AA694 /* UserAndPosts.swift */; };
 		E4FF4E6528FE08EB00DA4987 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FF4E6428FE08EB00DA4987 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		E4BF2655291D70C900993C70 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 		E4BF2656291D70C900993C70 /* MockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		E4BF2657291D70CA00993C70 /* posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = posts.json; sourceTree = "<group>"; };
+		E4D15BFE29383A06002AA694 /* UserAndPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAndPosts.swift; sourceTree = "<group>"; };
 		E4FF4E6428FE08EB00DA4987 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +103,7 @@
 			children = (
 				E427FE8F28FDB2A700E6E8A7 /* User.swift */,
 				E427FE9128FDB39400E6E8A7 /* Post.swift */,
+				E4D15BFE29383A06002AA694 /* UserAndPosts.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4D15BFF29383A06002AA694 /* UserAndPosts.swift in Sources */,
 				E427FE8228FDA73C00E6E8A7 /* UsersListView.swift in Sources */,
 				E4BF2654291D70AE00993C70 /* Bundle+Extension.swift in Sources */,
 				E4FF4E6528FE08EB00DA4987 /* APIService.swift in Sources */,
